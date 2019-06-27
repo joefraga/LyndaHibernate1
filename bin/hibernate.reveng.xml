@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-reverse-engineering>
+	<type-mapping>
+ 		<sql-type jdbc-type="INTEGER" hibernate-type="java.lang.Integer"></sql-type>
+	</type-mapping>
+	
+	<schema-selection match-catalog="lyndadb">
+		<table-filter match-name="message"></table-filter>
+	</schema-selection>
+</hibernate-reverse-engineering>
